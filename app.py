@@ -11,7 +11,7 @@ st.title("Heart Disease Prediction")
 
 # Inputs (MATCH EXACT ORDER)
 
-age = st.number_input("Age")
+
 
 
 fastingbs = st.selectbox("Fasting Blood Sugar > 120", [0,1])
