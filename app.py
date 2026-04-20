@@ -5,7 +5,7 @@ import numpy as np
 # Load model
 model = joblib.load("heart_model.pkl")
 
-prediction = model.predict(data)
+
 
 st.title("Heart Disease Prediction")
 
