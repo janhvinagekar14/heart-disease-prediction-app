@@ -3,7 +3,7 @@ import joblib
 import numpy as np
 
 # Load model
-model = joblib.load(r"C:\Users\Lenovo\Desktop\PG65\Machine Learning\Logistic Regression\Heart Disease Prediction\heart_model.pkl")
+model = joblib.load("heart_model.pkl")
 
 st.title("Heart Disease Prediction")
 
