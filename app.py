@@ -26,7 +26,7 @@ st_slope = st.selectbox("ST Slope (0=Up,1=Flat,2=Down)", [0,1,2])
 
 # Prediction
 if st.button("Predict"):
-    data = np.array([[age,  fastingbs, maxhr, 
+    data = np.array([[  fastingbs, maxhr, 
                       sex,  exercise_angina, st_slope]])
 
     prediction = model.predict(data)
